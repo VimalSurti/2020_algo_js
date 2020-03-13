@@ -30,3 +30,23 @@ var personne = {
     interet: 'musique',
 }
 console.log(`${personne.nom}, ${personne.age}, ${personne.sexe}, ${personne.interet}`);
+
+/*EXERCICE 02
+
+Rendu : ex02.js
+
+Créer une variables 'isLogin' égale à true
+
+Afficher le message "Connected" si la valeur de "isLogin" est vraie (true). 
+
+Afficher le message "Not Authorized" si la valeur de "isLogin" est fausse (false) */
+
+let isLogin = true;
+function exo2() {
+    if (isLogin === true) {
+        return "Connected";
+    } else {
+        return "Not Authorized";
+    }
+}
+console.log(exo2());

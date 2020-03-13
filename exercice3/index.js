@@ -88,3 +88,24 @@ Rendu : ex03.js
         }
     }
     console.log(exo3());
+    /*EXERCICE 04
+
+Rendu : /ex04.js
+
+Créer une variable et l'initialiser à 0.  
+
+Tant que cette variable n'atteint pas 10, il faut : 
+
+L 'afficher 
+
+L’'incrementer  */
+
+function incrementer() {
+    chiffre = 0
+    if (chiffre === 10) {
+        return chiffre ++;
+    } else {
+        return 'La variable chiffre à atteint 10';
+    }
+}
+console.log(incrementer());

@@ -123,8 +123,8 @@ Amusez-vous avec les méthodes JavaScript d'une chaîne de caractères (string).
 - Afficher le tableau retourné par la méthode .split() avec console.log*/
 
 let hello = "     Hello world    ";
-let hello2 = hello.split(" ");
-let supprimer = hello2.slice(5, 7);
-let espace = supprimer.toString();
-console.log(espace);
+let hello2 = hello.trim(); // le fonction trim permet de retirer les blancs.
+let separation = hello2.split(" ");
+console.log(separation);
+
 
